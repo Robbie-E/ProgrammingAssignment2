@@ -1,3 +1,8 @@
+#makeCacheMatrix creates an object that caches the inverse
+#cacheSolve solves the inverse of matrix from makeCacheMatrix,
+#skips calculation if inverse is already calculated
+#otherwise, calculates and caches the inverse
+
 makeCacheMatrix <- function(mat = matrix()) {
   #returns a list of four named functions:
   #(to access the functions using $ method)
